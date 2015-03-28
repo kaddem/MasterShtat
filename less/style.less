@@ -62,9 +62,13 @@ h2{
 header{
   background-image: url(../images/pattern-grey.png);
   min-width: @min-width;
-  & .row{
+  .row{
     font-size: 0;
   }
+  // .col-6, .col-4{
+  //   padding-left: 15px;
+  //   padding-right: 15px;
+  // }
 }
 .main-logo{
   display: inline-block;
@@ -650,6 +654,12 @@ footer{
       }
       & .bx-next{
         right: 20px;
+      }
+    }
+    header{
+      .container{
+        padding-left: 0;
+        padding-right: 0;
       }
     }
     .container{
